@@ -9,5 +9,3 @@ version          '0.1.0'
 recipe 'libpq-dev', 'Installs libpq-dev'
 
 supports 'Ubuntu'
-
-depends 'apt'

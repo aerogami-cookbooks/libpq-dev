@@ -21,7 +21,7 @@ end #case
 package 'libpq-dev' do
   package_name value_for_platform_family(
       'debian'   => 'libpq-dev',
-      'rhel'     => 'postgresql-devel',
+      'rhel'     => 'postgresql8-devel',   # generic: postgresql-devel  (works with warning)
       'mac_os_x' => 'postgresql',
   )
 end #package
